@@ -52,6 +52,7 @@ MNIST_Optimizer_Showdown/
 ├── main.py # Main script to run full experiment pipeline
 ├── requirements.txt # List of Python dependencies
 └── README.md # Project documentation (this file)
+
 ---
 
 ## 🚀 How to Run the Project
