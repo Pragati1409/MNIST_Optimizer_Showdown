@@ -20,39 +20,40 @@ This project explores how different optimization strategies affect the performan
 
 ## 📦 Folder Structure
 
+```
 MNIST_Optimizer_Showdown/
 │
 ├── data/
-│ └── mnist_loader.py # Loads and preprocesses MNIST dataset
+│   └── mnist_loader.py                  # Loads and preprocesses MNIST dataset
 │
 ├── models/
-│ └── neural_net.py # NumPy-based neural network
+│   └── neural_net.py                    # NumPy-based neural network
 │
 ├── optimizers/
-│ ├── sgd.py # Stochastic Gradient Descent with momentum
-│ └── backtrack.py # Backtracking Line Search optimizer
+│   ├── sgd.py                           # Stochastic Gradient Descent with momentum
+│   └── backtrack.py                     # Backtracking Line Search optimizer
 │
 ├── utils/
-│ ├── trainer.py # Training loop for both optimizers
-│ └── plotting.py # Functions for visualization
+│   ├── trainer.py                       # Training loop for both optimizers
+│   └── plotting.py                      # Functions for visualization
 │
 ├── experiments/
-│ ├── runner.py # Hyperparameter experiments
-│ └── plots/ # Generated plots (.png)
-│ ├── Optimizer_Comparison.png
-│ ├── Backtrack_Line_Search_Loss.png
-│ └── Learning_Rate_Batch_Size_Effects.png
+│   ├── runner.py                        # Hyperparameter experiments
+│   └── plots/                           # Generated plots (.png)
+│       ├── Optimizer_Comparison.png
+│       ├── Backtrack_Line_Search_Loss.png
+│       └── Learning_Rate_Batch_Size_Effects.png
 │
 ├── results/
-│ └── reflection.md # Summary of observations and conclusions
+│   └── reflection.md                    # Summary of observations and conclusions
 │
 ├── notebooks/
-│ └── DATA606_Bonus_Assignment.ipynb # Development notebook (for reference)
+│   └── DATA606_Bonus_Assignment.ipynb   # Development notebook (for reference)
 │
-├── main.py # Main script to run full experiment pipeline
-├── requirements.txt # List of Python dependencies
-└── README.md # Project documentation (this file)
-
+├── main.py                              # Main script to run full experiment pipeline
+├── requirements.txt                     # List of Python dependencies
+└── README.md                            # Project documentation (this file)
+```
 ---
 
 ## 🚀 How to Run the Project
